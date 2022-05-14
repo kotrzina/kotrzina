@@ -36,7 +36,7 @@ const Home: NextPage = () => {
 
                     <Board
                         title={"SDH Veselice"}
-                        description={"Oficiální wstránky sboru dobrovolných hasičů z Veselice."}
+                        description={"Oficiální webové stránky sboru dobrovolných hasičů z Veselice."}
                         linkTitle={"sdhveselice.cz"}
                         linkHref={"https://sdhveselice.cz//"}
                         image={sdhImg}
