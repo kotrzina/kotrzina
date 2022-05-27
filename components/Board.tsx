@@ -13,7 +13,7 @@ type Props = {
 export const Board: FC<Props> = (props: Props) => {
     return (
         <Col md={4}>
-            <Card border={"dark"} style={{width: '100%'}}>
+            <Card border={"dark"} style={{width: '100%', marginBottom: '20px'}}>
                 <Card.Img variant="top" src={props.image.src}/>
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>
