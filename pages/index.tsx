@@ -6,6 +6,7 @@ import {Board} from "../components/Board";
 import lpImg from "../images/lesempolem.webp"
 import sdhImg from "../images/sdh.webp"
 import hristeImg from "../images/hriste.webp"
+import fotkyImg from "../images/fotky.webp"
 
 const Home: NextPage = () => {
     return (
@@ -40,6 +41,14 @@ const Home: NextPage = () => {
                         linkTitle={"sdhveselice.cz"}
                         linkHref={"https://sdhveselice.cz//"}
                         image={sdhImg}
+                    />
+
+                    <Board
+                        title={"Fotky"}
+                        description={"Fotogalerie z akcí pořádaných ve Veselici."}
+                        linkTitle={"fotky.kotrzina.cz"}
+                        linkHref={"https://fotky.kotrzina.cz/"}
+                        image={fotkyImg}
                     />
                 </Row>
             </main>
