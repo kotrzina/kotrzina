@@ -1,0 +1,11 @@
+{
+  "pages": {
+    "build_output_dir": "out",
+    "build": {
+      "command": "next build",
+      "environment": {
+        "NODE_VERSION": "22"
+      }
+    }
+  }
+}
